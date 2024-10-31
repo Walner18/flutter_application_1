@@ -15,7 +15,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-# Git Branching 
+# Favorite Git Branching 
 1.
    ```bash
    git log --oneline --graph --all
@@ -31,7 +31,7 @@ allows you to temporarily save changes without committing, which is useful if yo
 Why it’s useful: It helps keep your working area clean, and you can return to the saved changes later without losing them.
 
 
-#Oh My Git
+# Oh My Git.
 1.
 
 ```bash
