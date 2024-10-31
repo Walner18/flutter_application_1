@@ -46,4 +46,4 @@ Why it's interesting: In the game, you can see how the commits rearrange and how
 This command lets you pick a specific commit from another branch and apply it to the branch you’re currently working on.
 Why it's interesting: becomes a very visual command where you see the commit "jump" from one branch to another, helping you understand how to bring specific changes across branches without merging entire branches.
 
-![image](https://github.com/user-attachments/assets/83a99e0c-c620-4d5f-b666-46c406560983)
+
