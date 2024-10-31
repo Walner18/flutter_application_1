@@ -15,51 +15,35 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-#Favorite Random Words
-
-# Favorite Random Words
-
-This is a Flutter application that generates random word pairs and allows users to save their favorites. The app uses the `english_words` package for random word pair generation and the `provider` package for state management.
-
-## Features
-
-- **Random Word Pair Generation:** Generate random word pairs using the `english_words` package.
-- **Favorites Management:** Users can mark word pairs as favorites and view their list of saved pairs.
-- **NavigationRail Layout:** A responsive design using `NavigationRail` for seamless navigation between the Home and Favorites screens.
-- **Material 3 Theme:** Customized theme with Material 3 and a dynamic color scheme based on a seed color.
-
-## Getting Started
-
-1. **Clone the repository**:
+# Git Branching 
+1.
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git log --oneline --graph --all
    ```
+This command displays a simplified, visual history of all commits across all branches, with a graphic representation of branch forks and merges.
+Why it’s useful: It’s perfect for seeing how branches develop and merge over time, especially in projects with multiple branch.
 
-2. **Install dependencies**:
+2.
    ```bash
-   flutter pub get
+   git stash
    ```
+allows you to temporarily save changes without committing, which is useful if you're in the middle of work and need to switch branches quickly.
+Why it’s useful: It helps keep your working area clean, and you can return to the saved changes later without losing them.
 
-3. **Run the app**:
-   ```bash
-   flutter run
+
+#Oh My Git
+1.
+
+```bash
+   git rebase
    ```
+Command helps you reorder and organize your commits into a cleaner timeline.
+Why it's interesting: In the game, you can see how the commits rearrange and how the Git history structure changes, making it much easier to understand rebasing rather than just reading about it.
+2.
+```bash
+   git cherry-pick
+   ```
+This command lets you pick a specific commit from another branch and apply it to the branch you’re currently working on.
+Why it's interesting: becomes a very visual command where you see the commit "jump" from one branch to another, helping you understand how to bring specific changes across branches without merging entire branches.
 
-## Code Structure
-
-- **main.dart**: The main entry point of the app, setting up the app’s theme and initial `ChangeNotifierProvider`.
-- **MyAppState**: A `ChangeNotifier` class that manages the app state, including the current word pair and the list of favorite pairs.
-- **MyHomePage**: Manages navigation between two pages: `GeneratorPage` and `FavoritesPage`.
-- **GeneratorPage**: Displays the current random word pair and allows the user to generate new pairs or add the current one to favorites.
-- **FavoritesPage**: Displays the list of saved favorite word pairs.
-
-## Dependencies
-
-- [Flutter](https://flutter.dev/)
-- [Provider](https://pub.dev/packages/provider)
-- [english_words](https://pub.dev/packages/english_words)
-
-## License
-
-This project is open-source under the [MIT License](LICENSE).
+![image](https://github.com/user-attachments/assets/83a99e0c-c620-4d5f-b666-46c406560983)
